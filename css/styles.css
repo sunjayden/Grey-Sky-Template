@@ -1,0 +1,430 @@
+h4,
+h5,
+h6,
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    background: #fff;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar-default .nav li a {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.navbar-default {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar {
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-header a:hover,
+.navbar-default .navbar-header a:focus {
+    color: #fff;
+}
+
+.navbar-default .nav li a:focus,
+.navbar-default .nav li a:hover {
+    color: #fff;
+    outline: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #FF9E77;
+}
+
+.intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+.intro-text .intro-heading {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+}
+
+.btn,
+.intro-text a:hover,
+.intro-text a:focus {
+    color: #fff;
+    background-color: #FF9E77;
+    border-color: #FF9E77;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.intro-text {
+    padding-top: 95px;
+}
+
+.intro-section {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+h1.tittle:after,
+h1.tittle:before {
+    border: 4px double #c2c2c2;
+    width: 150px;
+    display: inline-block;
+    content: "";
+    margin: 9px 11px;
+}
+
+@media(max-width:425px) {
+    h1.tittle:after,
+    h1.tittle:before {
+        margin: 9px 35px;
+    }
+}
+
+h1.tittle {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #FF9E77;
+}
+
+p.info {
+    color: #464646;
+    line-height: 2.2em;
+    text-align: center;
+    font-size: 14px;
+    width: 75%;
+    margin: 0 auto 50px;
+}
+
+h2.sub-info {
+    font-size: 25px;
+    color: #F6C4A6;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.profile-section ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.profile-section .hightlights {
+    margin-bottom: 30px;
+}
+
+.highlights1 li,
+.highlights2 li {
+    margin: 10px 0;
+    color: #464646;
+    line-height: 2.0em;
+    font-size: 14px;
+}
+
+.experiences-section .experience {
+    padding: 10px 110px;
+}
+
+.experiences-section .career-title {
+    margin-top: 20px;
+}
+
+.experiences-section .experience-name {
+    display: inline-block;
+    padding-top: 8px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.experiences-section .experience-period {
+    padding-top: 14px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.experiences-section .info {
+    text-align: left;
+    line-height: 1.64;
+}
+
+.experiences-section p > strong {
+    display: block;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.experiences-section .experience-location {
+    display: block;
+    color: #22A39F;
+    margin-top: 5px;
+}
+
+.experiences-section .class-detail {
+    margin-left: -15px;
+}
+
+.experiences-section .experience-last {
+    margin-bottom: 35px;
+}
+
+@media(max-width:425px) {
+    .experiences-section .experience {
+        padding: 0px 0px;
+    }
+    .experiences-section .experience-name {
+        text-align: center;
+    }
+    .experiences-section .experience-location {
+        text-align: center;
+    }
+}
+
+.projects-section .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #eee;
+    text-align: center;
+    padding: 25px;
+}
+
+.projects-section .portfolio-item .portfolio-caption h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.projects-section .portfolio-item .portfolio-caption p {
+    font-size: 16px;
+    margin: 0;
+    font-style: italic;
+}
+
+.projects-section .portfolio-item {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.projects-section .portfolio-item .portfolio-link .portfolio-hover {
+    background: #FF9E77;
+    position: absolute;
+    width: 92.5%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+}
+
+.projects-section .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
+.fa {
+    margin-top: 38%;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: xx-large;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.projects-section .experiences-subinfo {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.projects-section .skills {
+    margin-bottom: 20px;
+}
+
+.projects-section .progress-bar {
+    font-size: 16px;
+    line-height: 34px;
+    box-shadow: none;
+    font-weight: 500;
+}
+
+.projects-section .progress {
+    height: 35px;
+    background-color: #eee;
+    border-radius: 4px;
+    box-shadow: none;
+    line-height: 32px;
+    margin-bottom: 35px;
+}
+
+.progress p {
+    float: right;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #464646;
+    font-size: 15px;
+}
+
+.progress .progress-bar-warning {
+    background-color: #1AAFD0;
+}
+
+.progress .progress-bar-success {
+    background-color: #189AB7;
+}
+
+.progress-bar.progress-bar-warning1 {
+    background: #773A8C;
+}
+
+.progress-bar.progress-bar-success1 {
+    background: #580F71;
+}
+
+.progress-bar.progress-bar-success3 {
+    background: #3F751F;
+}
+
+.progress-bar.progress-bar-warning3 {
+    background: #41980E;
+}
+
+.progress-bar.progress-bar-warning2 {
+    background: #ff7900;
+}
+
+.progress-bar.progress-bar-success2 {
+    background: #B16119;
+}
+
+.progress-bar.progress-bar-warning4 {
+    background: #BD0000;
+}
+
+.progress-bar.progress-bar-success4 {
+    background: #7D0E0E;
+}
+
+section#contact {
+    background-color: #eee;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+section#contact .section-heading {
+    color: #FF9E77;
+    margin-bottom: 40px;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none
+}
+
+section#contact::-webkit-input-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+.contact-section p {
+    text-align: left;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright,
+footer ul.quicklinks {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
